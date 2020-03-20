@@ -23,6 +23,7 @@ background: rgba(0, 0, 0, 0.85);
 
 const SWBadge = styled(Badge)`
 background: rgba(100, 100, 100, 0.3);
+font-size: 1.30rem;
 
 `
 const CharacterCard = props => {
