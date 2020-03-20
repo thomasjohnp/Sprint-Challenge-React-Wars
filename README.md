@@ -25,14 +25,19 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+react JS is a library that can be utilized for quick styling, for example Cards or dropdown menus. 
 
 - [ ] What does it mean to _think_ in react?
+it means to treat everything like a component within a hierarchy
 
 - [ ] Describe state.
+states are objects that receive information from their update methods to be used dynamically in components
 
 - [ ] Describe props.
+arguments that transfer between components
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+changes outside of the component scope. in react you have to use useEffect to limit the behavior of certain functions to prevent a loop from causing api query redundancies or other potential problems that could result in unnecessary repetitiveness such as a memory leak. useEffect can be set to either allow its nested functions to run once on page load, or whenever a state is changed. 
 
 ## Project Set Up
 
